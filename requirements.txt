@@ -5,6 +5,7 @@ Write a program the will take as argument a port and a path.
 Your program will listen for clients to connect on 127.0.0.1 on th egiven port.
 Your program will receive commands from the connected clients and maintain a database of key-values.
 The connections are persisten, it means that a program can send multipe commands in a single session.
+When ur server is ready to accept incoming connections, it must print “ready/n” on stdout. (MY EDIT: Its actually double \n )
 
 Commands are tge following:
 
